@@ -21,7 +21,6 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 // =========Hamburger =================/////////////
-
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav__menu");
 
@@ -36,6 +35,12 @@ document.querySelectorAll(".nav__link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+//  REMOVING MENU while scrolling
+window.onscroll = function () {
+  navMenu.classList.remove("show-menu");
+  hamburger.classList.remove("active");
+};
 
 //  SCROLL SECTIONS ACTIVE LINK
 const section = document.querySelectorAll("section[id]");
