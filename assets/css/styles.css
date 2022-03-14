@@ -380,3 +380,68 @@ img {
 .button:hover {
   background-color: var(--first-color-dark);
 }
+
+/* === ABOUT ==== omadbek */
+
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+}
+
+.about__number {
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+  display: block;
+}
+
+.about__img {
+  justify-self: center;
+  width: 220px;
+  border-radius: 0.5rem;
+}
+
+/* Qualification */
+.qualification__container {
+  row-gap: 2.5rem;
+}
+
+.qualification__title {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-2);
+  display: flex;
+  align-items: center;
+}
+
+.qualification__title-icon {
+  font-size: 1.5rem;
+  margin-right: var(--mb-1);
+}
+
+.qualification__box {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.qualification__area {
+  font-size: var(--normal-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+}
+
+.qualification__icon,
+.qualification__work {
+  font-size: var(--smaller-font-size);
+  color: var(--first-color-light);
+}
+
+.qualification__work {
+  display: block;
+}
+
+/* =====Service =========== */
