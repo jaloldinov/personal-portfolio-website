@@ -1,6 +1,10 @@
 /* Google fonts */
 
 /* variables css */
+.not-ready {
+  color: red;
+}
+
 :root {
   --header-height: 3rem;
 
@@ -177,6 +181,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: #000;
+  transition: 0.3s;
 }
 
 /* ==== NAV==== */
@@ -381,6 +386,15 @@ img {
   background-color: var(--first-color-dark);
 }
 
+.button-white {
+  background-color: var(--first-color-lighten);
+  color: var(--first-color-dark);
+}
+
+.button-white:hover {
+  background-color: var(--first-color-lighten);
+}
+
 /* === ABOUT ==== omadbek */
 
 .about__data {
@@ -445,3 +459,62 @@ img {
 }
 
 /* =====Service =========== */
+.services__data {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: rgba(174, 190, 205, 0.3);
+  transition: 0.4s;
+}
+
+.services__icon,
+.services__title {
+  margin-bottom: var(--mb-2);
+  color: var(--first-color);
+}
+
+.services__icon {
+  font-size: 3rem;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+}
+
+.services__description {
+  margin-bottom: var(--mb-4);
+}
+
+.services__data:hover {
+  transform: translateY(-0.6rem);
+  box-shadow: rgba(174, 190, 205, 0.4);
+}
+
+/* =====PROJECT IN YOUR MIND {omadbek}=========== */
+.project__container {
+  padding: 1.5rem 1rem;
+  background-color: var(--first-color-dark);
+  color: var(--first-color-lighten);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.project__icon,
+.project__title {
+  margin-bottom: var(--mb-1);
+}
+
+.project__icon {
+  font-size: 3.5rem;
+}
+
+.project__title {
+  font-size: 1.5rem;
+}
+
+.project__description {
+  margin-bottom: var(--mb-4);
+}
+
+/* ===== Portfolio =========== */
