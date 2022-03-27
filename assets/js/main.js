@@ -1,3 +1,5 @@
+"use-strick";
+
 /* SHOWING MENU */
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
@@ -90,7 +92,27 @@ function scrollTop() {
 window.addEventListener("scroll", scrollTop);
 
 // MIXITUP FILTER PORTFOLIO
+const mixer = mixitup(".portfolio__container", {
+  selectors: {
+    target: ".portfolio__content",
+  },
+
+  animation: {
+    duration: 400,
+  },
+});
 
 // link active portfolio
+
+const linkPortfolio = document.querySelectorAll(".portfolio__item");
+
+function activePortfolio() {
+  if (linkPortfolio) {
+    linkPortfolio.forEach((l) => l.classList.remove("active-portfolio"));
+    this.classList.add("active-portfolio");
+  }
+}
+
+linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
 
 // SWIPER CARUSEL
