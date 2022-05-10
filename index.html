@@ -1,244 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ==== Swiper CSS ==== -->
-    <link rel="stylesheet" href="" />
-    <!-- fontawesom link -->
-    <script
-      src="https://kit.fontawesome.com/c77e9e2bdf.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <!-- ==== ICONS ==== -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ==== Swiper CSS ==== -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+  <!-- fontawesom link -->
+  <script src="https://kit.fontawesome.com/c77e9e2bdf.js" crossorigin="anonymous"></script>
 
-    <!-- ==== Style CSS ==== -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!-- ==== ICONS ==== -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
-    <title>Omadbek's Personal Portfolio</title>
-  </head>
+  <!-- ==== Style CSS ==== -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
 
-  <body>
-    <!-- ==== Scroll TOP ==== -->
-    <a href="#" class="scrolltop" id="scroll-top">
-      <i class="fa-solid fa-chevron-up scrolltop__icon"></i
-    ></a>
+  <title>Omadbek's Personal Portfolio</title>
+</head>
 
-    <!-- ==== Header ==== -->
-    <header class="first-header" id="header">
-      <nav class="nav bd-container">
-        <a href="#" class="nav__logo">Omadbek</a>
+<body>
+  <!-- ==== Scroll TOP ==== -->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class="fa-solid fa-chevron-up scrolltop__icon"></i></a>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#services" class="nav__link">Services</a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">Portfolio</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
-          </ul>
+  <!-- ==== Header ==== -->
+  <header class="first-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Omadbek</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Hamburger -->
+      <div class="hamburger nav__toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="first-main">
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h2 class="not-ready">Website is NOT ready yet!</h2>
+          <p class="not-ready">
+            I'm adding little bit when I've free time :D
+          </p>
+          <p class="not-ready">This is Mobile-first site!</p>
+
+          <span class="home__greeting">Hello, My name is</span>
+          <h1 class="home__name">Jaloldinov Omadbek</h1>
+          <span class="home__profession">Web Developer</span>
+
+          <a href="./assets/pdf/resume.pdf" class="button button-light home__button">Download CV</a>
         </div>
-        <!-- Hamburger -->
-        <div class="hamburger nav__toggle" id="nav-toggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+
+        <div class="home__social">
+          <a href="https://t.me/jaloldinovs" class="home__social-icon"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://linkedin.com/in/jaloldinovuz" class="home__social-icon"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="http://github.com/jaloldinov" class="home__social-icon"><i class="fa-brands fa-github"></i></a>
         </div>
-      </nav>
-    </header>
 
-    <main class="first-main">
-      <!-- Home -->
-      <section class="home" id="home">
-        <div class="home__container bd-container bd-grid">
-          <div class="home__data">
-            <h2 class="not-ready">Website is NOT ready yet!</h2>
-            <p class="not-ready">
-              I'm adding little bit when I've free time :D
-            </p>
-            <p class="not-ready">This is Mobile-first site!</p>
+        <div class="home__img">
+          <!-- <img src="./assets/img/home.jpg" alt="Home page image" /> -->
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="about section bd-container" id="about">
+      <span class="section-subtitle">My history</span>
+      <h2 class="section-title">About me</h2>
+      <div class="about__container bd-grid">
+        <p class="about__description">
+          <span> Hi, I am <br /> </span> Web Developer
+        </p>
+        <div class="about__data bd-grid">
 
-            <span class="home__greeting">Hello, My name is</span>
-            <h1 class="home__name">Jaloldinov Omadbek</h1>
-            <span class="home__profession">Web Developer</span>
-            <script
-              type="text/javascript"
-              src="https://freehitcounters.org/count/ai7z"
-            ></script>
-            <br />
-            <a href="https://www.symptoma.es/">Symptoma</a>
-            <script
-              type="text/javascript"
-              src="https://www.whomania.com/ctr?id=557ade109bb61c8c52bbc4e3ce7c9d4af72365eb"
-            ></script>
-            <a href="./assets/pdf/Omadbek.pdf" class="button button-light"
-              >Download CV</a
-            >
+          <div>
+            <span class="about__number">1+</span>
+            <span class="about__achievement">year experience</span>
           </div>
 
-          <div class="home__social">
-            <a href="" class="home__social-icon"
-              ><i class="fa-brands fa-telegram"></i
-            ></a>
-            <a href="" class="home__social-icon"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="" class="home__social-icon"
-              ><i class="fa-brands fa-github"></i
-            ></a>
+          <div>
+            <span class="about__number">5+</span>
+            <span class="about__achievement">Projects completes</span>
           </div>
 
-          <div class="home__img">
-            <img src="./assets/img/home.jpg" alt="Home page image" />
+          <div>
+            <span class="about__number">100%</span>
+            <span class="about__achievement">Job Success</span>
           </div>
         </div>
-      </section>
-      <!-- About -->
-      <section class="about section bd-container" id="about">
-        <span class="section-subtitle">My history</span>
-        <h2 class="section-title">About me</h2>
-        <div class="about__container bd-grid">
-          <div class="about__data bd-grid">
-            <p class="about__description">
-              <span> Hello, I am <br /> </span> Freelancer Lorem ipsum dolor
-              sit, amet consectetur adipisicing elit. Corporis quae illo error
-              iure.
-            </p>
 
-            <div>
-              <span class="about__number">05</span>
-              <span class="about__achievement">Years off experience</span>
-            </div>
+        <!-- <img src="./assets/img/home.jpg" alt="About image" class="about__img" /> -->
+      </div>
+    </section>
 
-            <div>
-              <span class="about__number">19+</span>
-              <span class="about__achievement">Projects completes</span>
-            </div>
+    <!-- Qualification -->
+    <section class="qualification section bd-container">
+      <span class="section-subtitle">Experience and Education</span>
+      <h2 class="section-title">Qualification</h2>
 
-            <div>
-              <span class="about__number">08</span>
-              <span class="about__achievement">Best work awards</span>
-            </div>
-          </div>
+      <div class="qualification__container bd-grid">
+        <div class="qualification__content">
+          <h2 class="qualification__title">
+            <i class="fa-solid fa-briefcase qualification__title-icon"></i>
+            Work Experience
+          </h2>
 
-          <img
-            src="./assets/img/home.jpg"
-            alt="About image"
-            class="about__img"
-          />
-          <img
-            src="./assets/img/home.jpg"
-            alt="About image"
-            class="about__img"
-          />
-        </div>
-      </section>
+          <div class="bd-grid">
+            <div class="qualification__data">
+              <h3 class="qualification__area">Front End Developer</h3>
 
-      <!-- Qualification -->
-      <section class="qualification section bd-container">
-        <span class="section-subtitle">Experience and Education</span>
-        <h2 class="section-title">Qualification</h2>
-
-        <div class="qualification__container bd-grid">
-          <div class="qualification__content">
-            <h2 class="qualification__title">
-              <i class="fa-solid fa-briefcase qualification__title-icon"></i>
-              Work Experience
-            </h2>
-
-            <div class="bd-grid">
-              <div class="qualification__data">
-                <h3 class="qualification__area">Front End Developer</h3>
-
-                <div class="qualification__box">
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-briefcase qualification__icon"></i>
-                    Andijan - Digital city
-                  </span>
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-calendar qualification__icon"></i>
-                    Jan 2021 - Feb 2022
-                  </span>
-                </div>
-              </div>
-
-              <div class="qualification__data">
-                <h3 class="qualification__area">Back End Developer</h3>
-
-                <div class="qualification__box">
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-briefcase qualitication__icon"></i>
-                    Toshkent
-                  </span>
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-calendar qualitication__icon"></i>
-                    Jan 2021 - Feb 2022
-                  </span>
-                </div>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="fa-solid fa-briefcase qualification__icon"></i>
+                  Andijan - Digital city
+                </span>
+                <span class="qualification__work">
+                  <i class="fa-solid fa-calendar qualification__icon"></i>
+                  Jan 2021 - Feb 2022
+                </span>
               </div>
             </div>
-          </div>
 
-          <div class="qualification__content">
-            <h2 class="qualification__title">
-              <i class="fa-solid fa-briefcase qualification__title-icon"></i>
-              Education
-            </h2>
+            <div class="qualification__data">
+              <h3 class="qualification__area">Back End Developer</h3>
 
-            <div class="bd-grid">
-              <div class="qualification__data">
-                <h3 class="qualification__area">Education faculty</h3>
-
-                <div class="qualification__box">
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-briefcase qualification__icon"></i>
-                    Andijan machine building
-                  </span>
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-calendar qualification__icon"></i>
-                    Jan 2021 - Feb 2022
-                  </span>
-                </div>
-              </div>
-
-              <div class="qualification__data">
-                <h3 class="qualification__area">Back End Developer</h3>
-
-                <div class="qualification__box">
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-briefcase qualitication__icon"></i>
-                    Toshkent
-                  </span>
-                  <span class="qualification__work">
-                    <i class="fa-solid fa-calendar qualitication__icon"></i>
-                    Jan 2021 - Feb 2022
-                  </span>
-                </div>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="fa-solid fa-briefcase qualitication__icon"></i>
+                  Toshkent
+                </span>
+                <span class="qualification__work">
+                  <i class="fa-solid fa-calendar qualitication__icon"></i>
+                  Jan 2021 - Feb 2022
+                </span>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Services -->
-      <section class="services section bd-container" id="services">
-        <span class="section-subtitle">What I offer</span>
-        <h2 class="section-title">Services</h2>
+
+        <div class="qualification__content">
+          <h2 class="qualification__title">
+            <i class="fa-solid fa-briefcase qualification__title-icon"></i>
+            Education
+          </h2>
+
+          <div class="bd-grid">
+            <div class="qualification__data">
+              <h3 class="qualification__area">Education faculty</h3>
+
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="fa-solid fa-briefcase qualification__icon"></i>
+                  Andijan machine building
+                </span>
+                <span class="qualification__work">
+                  <i class="fa-solid fa-calendar qualification__icon"></i>
+                  Jan 2021 - Feb 2022
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <h3 class="qualification__area">Back End Developer</h3>
+
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="fa-solid fa-briefcase qualitication__icon"></i>
+                  Toshkent
+                </span>
+                <span class="qualification__work">
+                  <i class="fa-solid fa-calendar qualitication__icon"></i>
+                  Jan 2021 - Feb 2022
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="services section bd-container" id="services">
+      <span class="section-subtitle">What I offer</span>
+      <h2 class="section-title">Services</h2>
+      <div class="services__container bd-grid">
+
         <div class="services__data">
           <i class="fab fa-laptop"></i>
           <h3 class="services__title">Fronend Development</h3>
@@ -268,189 +237,244 @@
           </p>
           <a href="#" class="button">Know More</a>
         </div>
-      </section>
 
-      <!-- Project in your mind -->
-      <section class="project section bd-container">
-        <div class="project__container bd-grid">
-          <div class="project__data">
-            <i class="fab fa-chat project__icon">icon</i>
-            <h2 class="project__title">Project in ming</h2>
+      </div>
+    </section>
+
+    <!-- Project in your mind -->
+    <section class="project section bd-container">
+      <div class="project__container bd-grid">
+        <div class="project__data">
+          <i class="fab fa-chat project__icon">icon</i>
+          <div>
+            <h2 class="project__title">Project in mind?</h2>
             <p class="project__description">
-              Hire me Lorem, ipsum dolor sit amet consectetur adipisicing.
+              Hire me to carry out the following projects.
             </p>
-            <a class="button button-white">Hire me</a>
           </div>
+
+          <a class="button button-white">Hire me</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Portfolio -->
-      <section class="portfolio section bd-container" id="portfolio">
-        <span class="section-subtitle">My recent works</span>
-        <h2 class="section-title">Portfolio</h2>
+    <!-- Portfolio -->
+    <section class="portfolio section bd-container" id="portfolio">
+      <span class="section-subtitle">My recent works</span>
+      <h2 class="section-title">Portfolio</h2>
 
-        <div class="portfolio__nav">
-          <span class="portfolio__item active-portfolio" data-filter="all"
-            >All</span
-          >
-          <span class="portfolio__item" data-filter=".frontend">Frontend</span>
-          <span class="portfolio__item" data-filter=".backend">Backend</span>
-          <span class="portfolio__item" data-filter=".full-stack"
-            >Full-Stack</span
-          >
-        </div>
+      <div class="portfolio__nav">
+        <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+        <span class="portfolio__item" data-filter=".frontend">Frontend</span>
+        <span class="portfolio__item" data-filter=".backend">Backend</span>
+        <span class="portfolio__item" data-filter=".full-stack">Full-Stack</span>
+      </div>
 
-        <div class="portfolio__container bd-grid">
-          <div class="portfolio__content">
-            <a href="#"
-              ><img
-                src="./assets/img/work1.png"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix frontend">
-            <a href="#"
-              ><img
-                src="./assets/img/work2.jpg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix frontend">
-            <a href="#"
-              ><img
-                src="./assets/img/work6.jpg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix frontend">
-            <a href="#"
-              ><img
-                src="./assets/img/work4.jpeg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix frontend">
-            <a href="#"
-              ><img
-                src="./assets/img/work5.jpg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix backend">
-            <a href="#"
-              ><img
-                src="./assets/img/work6.jpg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix backend">
-            <a href="#"
-              ><img
-                src="./assets/img/work6.jpg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix full-stack">
-            <a href="#"
-              ><img
-                src="./assets/img/work7.jpg"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
-          <!-- ============================== -->
-          <div class="portfolio__content mix full-stack">
-            <a href="#"
-              ><img
-                src="./assets/img/work1.png"
-                alt="work1"
-                class="portfolio__img"
-            /></a>
-            <span class="portfolio__subtitle">Web Development</span>
-            <a href="#">
-              <h2 class="portfolio__title">New portfolio of work done</h2>
-            </a>
-            <a href="#" class="button button-link">View Details</a>
-          </div>
+      <div class="portfolio__container bd-grid">
+        <div class="portfolio__content">
+          <a href="#"><img src="./assets/img/work1.png" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
         </div>
         <!-- ============================== -->
-      </section>
+        <div class="portfolio__content mix frontend">
+          <a href="#"><img src="./assets/img/work2.jpg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix frontend">
+          <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix frontend">
+          <a href="#"><img src="./assets/img/work4.jpeg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix frontend">
+          <a href="#"><img src="./assets/img/work5.jpg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix backend">
+          <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix backend">
+          <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix full-stack">
+          <a href="#"><img src="./assets/img/work7.jpg" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+        <!-- ============================== -->
+        <div class="portfolio__content mix full-stack">
+          <a href="#"><img src="./assets/img/work1.png" alt="work1" class="portfolio__img" /></a>
+          <span class="portfolio__subtitle">Web Development</span>
+          <a href="#">
+            <h2 class="portfolio__title">New portfolio of work done</h2>
+          </a>
+          <a href="#" class="button button-link">View Details</a>
+        </div>
+      </div>
+      <!-- ============================== -->
+    </section>
 
-      <!-- ==== Testimonial ==== -->
+    <!-- ==== Testimonial ==== -->
+    <section class="testimonial section bd-container">
+      <span class="section-subtitle">My client saying</span>
+      <h2 class="section-title">Testimonial</h2>
+      <div class="testimonial__container swiper">
+        <div class="swiper-wrapper">
 
-      <!-- ==== Contact me ==== -->
-    </main>
+          <div class="testimonial__content swiper-slide">
+            <img src="./assets/img/testi.jpg" alt="testimonials" class="testimonial__image">
+            <h3 class="testimonial__title">Sarvarbek Fozilov</h3>
+            <span class="testimonial__client">Client</span>
+            <p class="testimonial__description">Omadbek is the best developer ever I've seen on the freelance platform
+            </p>
+          </div>
+          <!-- ==================== -->
+          <div class="testimonial__content swiper-slide">
+            <img src="./assets/img/testi.jpg" alt="testimonials" class="testimonial__image">
+            <h3 class="testimonial__title">Sarvarbek Fozilov</h3>
+            <span class="testimonial__client">Client</span>
+            <p class="testimonial__description">Omadbek is the best developer ever I've seen on the freelance platform
+            </p>
+          </div>
+          <!-- =================== -->
+          <div class="testimonial__content swiper-slide">
+            <img src="./assets/img/testi.jpg" alt="testimonials" class="testimonial__image">
+            <h3 class="testimonial__title">Sarvarbek Fozilov</h3>
+            <span class="testimonial__client">Client</span>
+            <p class="testimonial__description">Omadbek is the best developer ever I've seen on the freelance platform
+            </p>
+          </div>
+          <!-- =================== -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-    <!-- ==== Footer ==== -->
+    <!-- ==== Contact me ==== -->
+    <section class="contact section bd-container" id="contact">
+      <span class="section-subtitle">For projects</span>
+      <h2 class="section-title">Contact Me</h2>
 
-    <!-- ==== MixItUp filter ==== -->
-    <script src="./assets/js/mixitup.min.js"></script>
+      <div class="contact__container bd-grid">
+        <div class="contact__content bd-grid">
+          <div class="contact-box">
+            <i>icon</i>
+            <h3 class="contact__title">Location</h3>
+            <span class="contact__description">Uzbekistan, Andijan</span>
+          </div>
+          <!-- -------------- -->
+          <div class="contact-box">
+            <i>icon</i>
+            <h3 class="contact__title">Phone</h3>
+            <span class="contact__description">+998 (90) 549-10-66 </span>
+          </div>
+          <!-- -------------- -->
+          <div class="contact-box">
+            <i>icon</i>
+            <h3 class="contact__title">Gmail</h3>
+            <span class="contact__description">jaloldinovuz@gmail.com</span>
+          </div>
+          <!-- -------------- -->
+          <div class="contact-box">
+            <i>icon</i>
+            <h3 class="contact__title">Chat</h3>
+            <div>
+              <a href="#" class="contact__social"><i>tg icon</i></a>
+              <a href="#" class="contact__social"><i>linked icon</i></a>
+              <a href="#" class="contact__social"><i>github</i></a>
+            </div>
+          </div>
+          <!-- -------------- -->
+        </div>
 
-    <!-- ======= 50:00 -->
+        <form action="" class="contact__form">
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" placeholder="Name">
+            <input type="email" class="contact__input" placeholder="Email">
+          </div>
 
-    <!-- ==== Swiper JS ==== -->
-    <script src=""></script>
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" placeholder="Project">
+            <input type="number" class="contact__input" placeholder="Number">
+          </div>
 
-    <!-- ==== GSAP ==== -->
-    <script src=""></script>
+          <textarea name="" id="" cols="0" rows="7" class="contact__input" placeholder="Message"></textarea>
+          <input type="submit" value="Send Message" class="button contact__button">
+        </form>
+      </div>
+    </section>
 
-    <!-- ==== Main js ==== -->
-    <script src="./assets/js/main.js"></script>
-    <!-- Boxicon -->
-    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
-  </body>
+  </main>
+
+  <!-- ==== Footer ==== -->
+  <footer class="footer">
+    <div class="footer__container bd-container">
+      <h2 class="footer__title">Omadbek Jaloldinov</h2>
+      <p class="footer__description">HI, I'm Omadbek</p>
+
+      <div class="footer__social">
+        <a href="#" class="footer__link"><i>icons</i></a>
+        <a href="#" class="footer__link"><i>icons</i></a>
+        <a href="#" class="footer__link"><i>icons</i></a>
+      </div>
+      <p class="footer__copy">&#169; 2022 - MuslimDevs.</p>
+    </div>
+  </footer>
+
+  <!-- ==== MixItUp filter ==== -->
+  <script src="./assets/js/mixitup.min.js"></script>
+
+  <!-- ==== Swiper JS ==== -->
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+
+  <!-- ==== GSAP ==== -->
+  <script src="./assets/js/gsap.min.js"></script>
+
+  <!-- ==== Main js ==== -->
+  <script src="./assets/js/main.js"></script>
+  <!-- Box icon -->
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</body>
+
 </html>
