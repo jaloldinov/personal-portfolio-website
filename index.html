@@ -269,7 +269,7 @@
             </p>
           </div>
 
-          <a class="button button-white">Hire me</a>
+          <a class="button">Hire me</a>
         </div>
       </div>
     </section>
@@ -283,19 +283,10 @@
         <span class="portfolio__item active-portfolio" data-filter="all">All</span>
         <span class="portfolio__item" data-filter=".frontend">Frontend</span>
         <span class="portfolio__item" data-filter=".backend">Backend</span>
-        <span class="portfolio__item" data-filter=".full-stack">Full-Stack</span>
       </div>
 
       <div class="portfolio__container bd-grid">
-        <div class="portfolio__content">
-          <a href="#"><img src="./assets/img/work1.png" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div>
-        <!-- ============================== -->
+
         <div class="portfolio__content mix frontend">
           <a href="#"><img src="./assets/img/work2.jpg" alt="work1" class="portfolio__img" /></a>
           <span class="portfolio__subtitle">Web Development</span>
@@ -304,33 +295,16 @@
           </a>
           <a href="#" class="button button-link">View Details</a>
         </div>
+
         <!-- ============================== -->
-        <div class="portfolio__content mix frontend">
-          <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div>
-        <!-- ============================== -->
-        <div class="portfolio__content mix frontend">
-          <a href="#"><img src="./assets/img/work4.jpeg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div>
-        <!-- ============================== -->
-        <div class="portfolio__content mix frontend">
+        <!--        <div class="portfolio__content mix frontend">
           <a href="#"><img src="./assets/img/work5.jpg" alt="work1" class="portfolio__img" /></a>
           <span class="portfolio__subtitle">Web Development</span>
           <a href="#">
             <h2 class="portfolio__title">New portfolio of work done</h2>
           </a>
           <a href="#" class="button button-link">View Details</a>
-        </div>
+        </div> -->
         <!-- ============================== -->
         <div class="portfolio__content mix backend">
           <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
@@ -341,34 +315,24 @@
           <a href="#" class="button button-link">View Details</a>
         </div>
         <!-- ============================== -->
-        <div class="portfolio__content mix backend">
+        <!--         <div class="portfolio__content mix backend">
           <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
           <span class="portfolio__subtitle">Web Development</span>
           <a href="#">
             <h2 class="portfolio__title">New portfolio of work done</h2>
           </a>
           <a href="#" class="button button-link">View Details</a>
-        </div>
+        </div> -->
         <!-- ============================== -->
-        <div class="portfolio__content mix full-stack">
+        <!--         <div class="portfolio__content mix full-stack">
           <a href="#"><img src="./assets/img/work7.jpg" alt="work1" class="portfolio__img" /></a>
           <span class="portfolio__subtitle">Web Development</span>
           <a href="#">
             <h2 class="portfolio__title">New portfolio of work done</h2>
           </a>
           <a href="#" class="button button-link">View Details</a>
-        </div>
+        </div> -->
         <!-- ============================== -->
-        <div class="portfolio__content mix full-stack">
-          <a href="#"><img src="./assets/img/work1.png" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div>
-      </div>
-      <!-- ============================== -->
     </section>
 
     <!-- ==== Testimonial ==== -->
@@ -413,6 +377,24 @@
       <h2 class="section-title">Contact Me</h2>
 
       <div class="contact__container bd-grid">
+
+        <form action="" class="contact__form">
+          <label for="sms">Leave me a message</label>
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" placeholder="Name" id="sms">
+            <input type="email" class="contact__input" placeholder="Email">
+          </div>
+
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" placeholder="Project">
+            <input type="number" class="contact__input" placeholder="Number">
+          </div>
+
+          <textarea name="" id="" cols="0" rows="7" class="contact__input"
+            placeholder="Briefly describe your project"></textarea>
+          <input type="submit" value="Send Message" class="button contact__button">
+        </form>
+        <!--  -->
         <div class="contact__content bd-grid">
           <div class="contact-box">
             <i class="fa-regular fa-location-dot"></i>
@@ -444,21 +426,6 @@
           </div>
           <!-- -------------- -->
         </div>
-
-        <form action="" class="contact__form">
-          <div class="contact__inputs">
-            <input type="text" class="contact__input" placeholder="Name">
-            <input type="email" class="contact__input" placeholder="Email">
-          </div>
-
-          <div class="contact__inputs">
-            <input type="text" class="contact__input" placeholder="Project">
-            <input type="number" class="contact__input" placeholder="Number">
-          </div>
-
-          <textarea name="" id="" cols="0" rows="7" class="contact__input" placeholder="Message"></textarea>
-          <input type="submit" value="Send Message" class="button contact__button">
-        </form>
       </div>
     </section>
 
