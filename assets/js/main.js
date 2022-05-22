@@ -1,5 +1,14 @@
 "use-strick";
 
+// PRELOADER;
+let loader = document.querySelector(".preloader");
+window.onload = function () {
+  loader.style.opacity = "0";
+
+  setTimeout(() => {
+    loader.classList.add("remove__loader");
+  }, 1000);
+};
 /* SHOWING MENU */
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),

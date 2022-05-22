@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- font awesome link CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <!-- ==== Swiper CSS ==== -->
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
   <!-- fontawesom link -->
@@ -15,11 +17,25 @@
 
   <!-- ==== Style CSS ==== -->
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/loader.css">
 
   <title>Omadbek's Personal Portfolio</title>
 </head>
 
+
 <body>
+
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader--dot"></div>
+      <div class="loader--dot"></div>
+      <div class="loader--dot"></div>
+      <div class="loader--dot"></div>
+      <div class="loader--dot"></div>
+      <div class="loader--dot"></div>
+      <div class="loader--text"></div>
+    </div>
+  </div>
   <!-- ==== Scroll TOP ==== -->
   <a href="#" class="scrolltop" id="scroll-top">
     <i class="fa-solid fa-chevron-up scrolltop__icon"></i></a>
@@ -399,30 +415,31 @@
       <div class="contact__container bd-grid">
         <div class="contact__content bd-grid">
           <div class="contact-box">
-            <i>icon</i>
+            <i class="fa-regular fa-location-dot"></i>
+
             <h3 class="contact__title">Location</h3>
             <span class="contact__description">Uzbekistan, Andijan</span>
           </div>
           <!-- -------------- -->
           <div class="contact-box">
-            <i>icon</i>
+            <i class="fa-regular fa-phone"></i>
             <h3 class="contact__title">Phone</h3>
             <span class="contact__description">+998 (90) 549-10-66 </span>
           </div>
           <!-- -------------- -->
           <div class="contact-box">
-            <i>icon</i>
+            <i class="fa-solid fa-envelope-circle-check"></i>
             <h3 class="contact__title">Gmail</h3>
             <span class="contact__description">jaloldinovuz@gmail.com</span>
           </div>
           <!-- -------------- -->
           <div class="contact-box">
-            <i>icon</i>
+            <i class="fa-regular fa-messages-question"></i>
             <h3 class="contact__title">Chat</h3>
             <div>
-              <a href="#" class="contact__social"><i>tg icon</i></a>
-              <a href="#" class="contact__social"><i>linked icon</i></a>
-              <a href="#" class="contact__social"><i>github</i></a>
+              <a href="#" class="contact__social"><i class="fa-brands fa-telegram"></i></a>
+              <a href="#" class="contact__social"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" class="contact__social"><i class="fa-brands fa-github"></i></a>
             </div>
           </div>
           <!-- -------------- -->
