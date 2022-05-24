@@ -100,20 +100,6 @@ function scrollTop() {
 }
 window.addEventListener("scroll", scrollTop);
 
-//MIXITUP FILTER PORTFOLIO
-const mixer = mixitup(".portfolio__container", {
-  selectors: {
-    target: ".portfolio__content",
-  },
-
-  animation: {
-    duration: 250,
-    nudge: false,
-    reverseOut: false,
-    effects: "fade scale(0.08)",
-  },
-});
-
 // link active portfolio
 
 const linkPortfolio = document.querySelectorAll(".portfolio__item");

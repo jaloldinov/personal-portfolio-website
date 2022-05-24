@@ -109,7 +109,8 @@
       <h2 class="section-title">About me</h2>
       <div class="about__container bd-grid">
         <p class="about__description">
-          <span> Hi, I am <br /> </span> Web Developer
+          <span> Hi, I am <br /> </span> Full stack web developer (HTML, CSS, Bootstrap, SCSS, JavaScript, React.js,
+          Node.js, Express.js, Golang, Gin MySql, MongoDB, etc.)
         </p>
         <div class="about__data bd-grid">
 
@@ -134,90 +135,82 @@
     </section>
 
     <!-- Qualification -->
-    <section class="qualification section bd-container">
-      <span class="section-subtitle">Experience and Education</span>
-      <h2 class="section-title">Qualification</h2>
-
-      <div class="qualification__container bd-grid">
-        <div class="qualification__content">
-          <h2 class="qualification__title">
-            <i class="fa-solid fa-briefcase qualification__title-icon"></i>
-            Work Experience
-          </h2>
-
-          <div class="bd-grid">
-            <div class="qualification__data">
-              <h3 class="qualification__area">Front End Developer</h3>
-
-              <div class="qualification__box">
-                <span class="qualification__work">
-                  <i class="fa-solid fa-briefcase qualification__icon"></i>
-                  Andijan - Digital city
-                </span>
-                <span class="qualification__work">
-                  <i class="fa-solid fa-calendar qualification__icon"></i>
-                  Jan 2021 - Feb 2022
-                </span>
-              </div>
+    <!-- <section class="qualification section bd-container"> -->
+    <section id="resume" class="resume-section section-padding qualification section bd-container">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="edu" class="resume-title">
+              <h2>Education</h2>
             </div>
-
-            <div class="qualification__data">
-              <h3 class="qualification__area">Back End Developer</h3>
-
-              <div class="qualification__box">
-                <span class="qualification__work">
-                  <i class="fa-solid fa-briefcase qualitication__icon"></i>
-                  Toshkent
-                </span>
-                <span class="qualification__work">
-                  <i class="fa-solid fa-calendar qualitication__icon"></i>
-                  Jan 2021 - Feb 2022
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="qualification__content">
-          <h2 class="qualification__title">
-            <i class="fa-solid fa-briefcase qualification__title-icon"></i>
-            Education
-          </h2>
-
-          <div class="bd-grid">
-            <div class="qualification__data">
-              <h3 class="qualification__area">Education faculty</h3>
-
-              <div class="qualification__box">
-                <span class="qualification__work">
-                  <i class="fa-solid fa-briefcase qualification__icon"></i>
-                  Andijan machine building
-                </span>
-                <span class="qualification__work">
-                  <i class="fa-solid fa-calendar qualification__icon"></i>
-                  Jan 2021 - Feb 2022
-                </span>
-              </div>
-            </div>
-
-            <div class="qualification__data">
-              <h3 class="qualification__area">Back End Developer</h3>
-
-              <div class="qualification__box">
-                <span class="qualification__work">
-                  <i class="fa-solid fa-briefcase qualitication__icon"></i>
-                  Toshkent
-                </span>
-                <span class="qualification__work">
-                  <i class="fa-solid fa-calendar qualitication__icon"></i>
-                  Jan 2021 - Feb 2022
-                </span>
-              </div>
+            <div class="resume">
+              <ul class="timeline">
+                <li>
+                  <div class="posted-date">
+                    <span class="month">2020 - 2025</span>
+                  </div>
+                  <div id="edu-01" class="panel panel-success timeline-panel">
+                    <div class="timeline-content">
+                      <div class="panel-heading timeline-heading row">
+                        <h3 class="panel-title">Bachelor's degree</h3>
+                        <i class="fas fa-3x fa-user-graduate education-img"></i>
+                      </div>
+                      <div class="panel-body timeline-body">
+                        <p>
+                          Economics and management
+                          <br>
+                          Andijan Machine Building Institute, Uzbekisaten
+                          <br>
+                          Electronic commerce
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="posted-date">
+                    <span class="month">2017 - 2019</span>
+                  </div>
+                  <div id="edu-02" class="panel panel-success timeline-panel">
+                    <div class="timeline-content">
+                      <div class="panel-heading timeline-heading row">
+                        <div class="col-md-10 col-xs-9 pull-left">
+                          <h3 class="panel-title pane">Secondary education</h3>
+                          <span class="text-primary"> - graduate diploma</span>
+                        </div>
+                        <div class="col-md-2 col-xs-3 pull-right text-center">
+                          <i class="fas fa-3x fa-graduation-cap education-img"></i>
+                        </div>
+                      </div>
+                      <div class="panel-body timeline-body">
+                        <p>
+                          Exact Sciences
+                          <br>
+                          Academic lyceum under Turin Polytechnic University in Tashkent, Uzbekistan
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- </section> -->
     <!-- Services -->
     <section class="services section bd-container" id="services">
       <span class="section-subtitle">What I offer</span>
@@ -275,64 +268,8 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="portfolio section bd-container" id="portfolio">
-      <span class="section-subtitle">My recent works</span>
-      <h2 class="section-title">Portfolio</h2>
+    <section class="portfolio section portfolio-section section-padding bd-container" id="portfolio">
 
-      <div class="portfolio__nav">
-        <span class="portfolio__item active-portfolio" data-filter="all">All</span>
-        <span class="portfolio__item" data-filter=".frontend">Frontend</span>
-        <span class="portfolio__item" data-filter=".backend">Backend</span>
-      </div>
-
-      <div class="portfolio__container bd-grid">
-
-        <div class="portfolio__content mix frontend">
-          <a href="#"><img src="./assets/img/work2.jpg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div>
-
-        <!-- ============================== -->
-        <!--        <div class="portfolio__content mix frontend">
-          <a href="#"><img src="./assets/img/work5.jpg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div> -->
-        <!-- ============================== -->
-        <div class="portfolio__content mix backend">
-          <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div>
-        <!-- ============================== -->
-        <!--         <div class="portfolio__content mix backend">
-          <a href="#"><img src="./assets/img/work6.jpg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div> -->
-        <!-- ============================== -->
-        <!--         <div class="portfolio__content mix full-stack">
-          <a href="#"><img src="./assets/img/work7.jpg" alt="work1" class="portfolio__img" /></a>
-          <span class="portfolio__subtitle">Web Development</span>
-          <a href="#">
-            <h2 class="portfolio__title">New portfolio of work done</h2>
-          </a>
-          <a href="#" class="button button-link">View Details</a>
-        </div> -->
-        <!-- ============================== -->
     </section>
 
     <!-- ==== Testimonial ==== -->
@@ -459,6 +396,7 @@
   <script src="./assets/js/main.js"></script>
   <!-- Box icon -->
   <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
 </body>
 
 </html>
